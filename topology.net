@@ -1,0 +1,57 @@
+autostart = False
+version = 0.8.6
+[vbox 127.0.0.1:11525]
+    workingdir = /tmp
+    udp = 20900
+    [[VBoxDevice]]
+        image = R01_263279
+        nics = 8
+    [[VBOX R01_3549]]
+        image = R01_3549
+        symbol = router_firewall
+        x = -70.5
+        y = -33.5
+        z = 1.0
+    [[VBOX R01_18881]]
+        image = R01_18881
+        symbol = router_firewall
+        x = 11.5
+        y = -204.5
+        z = 1.0
+    [[VBOX CLOUD_INT]]
+        image = CLOUD_INT
+        symbol = router_firewall
+        x = -169.5
+        y = -197.5
+        z = 1.0
+    [[VBOX R01_25933]]
+        image = R01_25933
+        symbol = router_firewall
+        x = 148.5
+        y = -123.5
+        z = 1.0
+    [[VBOX R01_26615]]
+        image = R01_26615
+        symbol = router_firewall
+        x = -187.5
+        y = 144.5
+        z = 1.0
+    [[VBOX R01_28132]]
+        image = R01_28132
+        symbol = router_firewall
+        x = 87.5
+        y = 159.5
+        z = 1.0
+    [[VBOX R01_53197]]
+        image = R01_53197
+        symbol = router_firewall
+        x = -252.5
+        y = -24.5
+        z = 1.0
+    [[VBOX R01_263279]]
+        symbol = router_firewall
+        x = 116.5
+        y = 42.5
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
